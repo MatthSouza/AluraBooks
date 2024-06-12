@@ -67,6 +67,9 @@
     display: none;
 }
 
+.container_texto{
+    display: none;
+}
 
 
 @media screen and (min-width: 1024px) {
@@ -117,4 +120,26 @@
     }
 
     
+}
+
+@media screen and (min-width: 1728px) {
+    .container_texto{
+        display: block
+    }
+
+    .container_link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabeçalho{
+        padding: 0 2em;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+
 }
