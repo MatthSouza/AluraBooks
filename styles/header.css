@@ -71,6 +71,13 @@
     display: none;
 }
 
+.container_botao:checked~.container_rotulo>.cabeçalho_hamburguer{
+    background-image: url("../img//Menu\ Aberto.svg");
+}
+
+.container_botao:checked~.container_rotulo{
+    background: var(--azul-degrade);
+}
 
 @media screen and (min-width: 1024px) {
     .container_titulo,
@@ -117,6 +124,25 @@
 
     .cabeçalho_hamburguer{
         display: none;
+    }
+
+    .opcoes_botao:checked~.opcoes_rotulo>.opcoes_item{
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .opcoes_item{
+        padding: 1em 2em;
+    }
+
+    .lista_menu_item:hover{
+        background: var(--azul-degrade);
+    }
+
+    .lista_menu_item:hover>.lista_menu_link{
+        -webkit-text-fill-color: var(--branco);
+        
+        text-decoration: none;
     }
 
     
