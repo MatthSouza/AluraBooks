@@ -16,12 +16,9 @@
 
     --font-principal: "Poppins";
     --font-secundario: "Josefin Sans":
-
 }
 
 body {
     background-color: var(--cor-de-fundo);
-    font-family: var(--font-principal)
-    ;
+    font-family: var(--font-principal);
 }
-
